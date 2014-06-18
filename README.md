@@ -25,7 +25,7 @@ This was done before **requirement 3** without changing the in any way the final
 The original names were used as names of the columns in **tidy_1**
 At this moment we have a dataframe tidy_1 with the first 2 columns representing the subject id and activity id while the remaining 79 columns representing activities with descriptive activity names.
 
-### Requiremnt 3: Uses descriptive activity names to name the activities in the data set 
+### Requirement 3: Uses descriptive activity names to name the activities in the data set 
 For this task I hardcoded into a vector the name of the activities(*STANDING...*) and I used this vector to create a column *coloana_activitati* that was used
 into a new created **tidy_2** data frame.
 
@@ -33,7 +33,7 @@ into a new created **tidy_2** data frame.
 
 This was done using function **aggregate()** the mean was calculated for columns 3:81 of **tidy_2** creating the final data frame called **xx**
 The labels of the columns 3:81 of this data frame are of the form
-**MEAN[ _name_of_the_function ]**
+**MEAN[ _name_of_the_function_ ]**
 
 
 
