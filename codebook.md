@@ -85,7 +85,7 @@
 82. MEAN[ fBodyBodyGyroJerkMag-meanFreq ]
 
 #### Explanation:
-**Column 1 Activity** is a factor and can take one the values:
+**Column 1 Activity** is a factor and can take one of the values:
 * WALKING    
 * WALKING_UPSTAIRS
 * WALKING_DOWNSTAIRS
@@ -95,7 +95,7 @@
 
 **Column 2 Subject_ID** is an int and can take values from 1 to 30 and represents the id of the subject
 
-**Columns 3 to 81** numericals representing  means of values included in the brackets. The description of the measurements included in the brackets are
+**Columns 3 to 81** are numericals representing  means of values included in the brackets. The description of the measurements included in the brackets are
 found in the original codebook.
-e.g.  *column 81 MEAN[ fBodyBodyGyroJerkMag-meanFreq ]* represents the mean of *fBodyBodyGyroJerkMag-meanFreq*
+e.g.  *column 81 MEAN[ fBodyBodyGyroJerkMag-meanFreq ]* represents the mean of *fBodyBodyGyroJerkMag-meanFreq*,
 see **features_info.txt and features.txt**
